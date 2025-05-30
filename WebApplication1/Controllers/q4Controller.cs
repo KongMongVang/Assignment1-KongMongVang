@@ -12,6 +12,7 @@ public class q4Controller : ControllerBase
     /// This method will return a knock knock joke.
     /// </summary>
     /// <returns>Who's there?</returns>
+    /// <example>POST api/q4/knockknock</example>
     [HttpPost(template: "knockknock")]
     public string joke()
     {

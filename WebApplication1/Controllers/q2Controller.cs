@@ -11,7 +11,9 @@ public class q2Controller : ControllerBase
     /// This method will return a greeting
     /// </summary>
     /// <returns>Hi Gary!</returns>
-    /// /// <returns>Hi Renée!</returns>
+    /// <returns>Hi Renée!</returns>
+    /// <example>GET api/q2/greeting?name=Gary</example>
+    /// <example>GET api/q2/greeting?name=Renée</example>
     [HttpGet(template: "greeting")]
     public string greeting(string name)
     {

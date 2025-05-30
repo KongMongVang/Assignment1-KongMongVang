@@ -11,6 +11,7 @@ public class q1Controller : ControllerBase
     /// This method will return a welcome message.
     /// </summary>
     /// <returns>welcome to 5125</returns>
+    /// <example>GET api/q1/welcome</example>
     [HttpGet(template: "welcome")]
     public string welcome()
     {

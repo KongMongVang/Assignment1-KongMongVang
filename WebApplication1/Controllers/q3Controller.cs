@@ -14,6 +14,9 @@ public class q3Controller : ControllerBase
     /// <returns>64</returns>
     /// <returns>-64</returns>
     /// <returns>1000</returns>
+    /// <example>GET api/q3/cube/4</example>
+    /// <example>GET api/q3/cube/-4</example>
+    /// <example>GET api/q3/cube/10</example>
     [HttpGet(template: "cube/{num1}")]
     public int cube (int num1)
     {
