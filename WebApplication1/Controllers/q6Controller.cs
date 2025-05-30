@@ -9,14 +9,15 @@ public class q6Controller : ControllerBase
 
 {
     /// <summary>
-    /// This method will return a secret integer.
+    /// This method will return the area of a hexagon.
     /// </summary>
-    /// <returns>5</returns>
-    /// <returns>-200</returns>
-    [HttpPost(template: "hexagon")]
-    public decimal AreaHexagon(decimal side)
+    /// <returns>returns area of hexagon</returns>
+    /// <example>GET /api/q6/hexagon?side=1</example>
+    /// <example>GET /api/q6/hexagon?side=1.5</example>
+    /// <example>GET /api/q6/hexagon?side=20</example>
+    [HttpGet(template: "hexagon")]
+    public double AreaHexagon(double side)
     {
-        
-        return 
+        return (3 * Math.Sqrt(3)) / 2 * Math.Pow(side, 2);
     }
 }

@@ -30,3 +30,4 @@
 /Users/kongvang/Desktop/Humber Web Development Term 1/Back-End Web Development 1 HTTP-5125/Assignment1-KongMongVang/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb
 /Users/kongvang/Desktop/Humber Web Development Term 1/Back-End Web Development 1 HTTP-5125/Assignment1-KongMongVang/WebApplication1/obj/Debug/net8.0/WebApplication1.genruntimeconfig.cache
 /Users/kongvang/Desktop/Humber Web Development Term 1/Back-End Web Development 1 HTTP-5125/Assignment1-KongMongVang/WebApplication1/obj/Debug/net8.0/ref/WebApplication1.dll
+/Users/kongvang/Desktop/Humber Web Development Term 1/Back-End Web Development 1 HTTP-5125/Assignment1-KongMongVang/WebApplication1/obj/Debug/net8.0/WebApplication1.sourcelink.json
