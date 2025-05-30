@@ -24,6 +24,6 @@ public class q8Controller : ControllerBase
         double subTotal = smallTotal + largeTotal;
         double tax = 0.13 * subTotal;
         double total = tax + subTotal;
-        return $"{Small} Small @25.50 = ${smallTotal}; {Large} large @40.50 = ${largeTotal}; subtotal = ${subTotal}; tax = ${tax} HST; total = ${total}";
+        return $"{Small} Small @25.50 = ${smallTotal.ToString("F", CultureInfo.InvariantCulture)}; {Large} large @40.50 = ${largeTotal.ToString("F", CultureInfo.InvariantCulture)}; subtotal = ${subTotal.ToString("F", CultureInfo.InvariantCulture)}; tax = ${tax.ToString("F", CultureInfo.InvariantCulture)} HST; total = ${total.ToString("F", CultureInfo.InvariantCulture)}";
     }
 }
